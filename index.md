@@ -17,6 +17,8 @@ def my_method(name)
 end
 {% endhighlight %}
 
-Go -> [There](http://www.google.com)
-
-![Pic](http://a1.twimg.com/profile_images/1025519450/2501a94f461da4590071f50c97988ebd_normal.png "Gravatar")
+{% for post in site.posts limit:5 %}
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}

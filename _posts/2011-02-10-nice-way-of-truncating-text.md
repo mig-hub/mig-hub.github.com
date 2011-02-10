@@ -1,7 +1,6 @@
 ---
 layout: main
 permalink: pretty
-category: regex
 ---
 
 There are dozens of ways of truncating text. We don't always have the same needs, so let me tell you that this way I'm gonna show you is not THE perfect way. It is just one I like because it does quite a good job and it uses Regex, which means that it can be done in many languages.
