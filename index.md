@@ -1,6 +1,6 @@
 ---
-layout: page
-published: true
+layout: main
+title: Mig Hub
 ---
 
 Hello World

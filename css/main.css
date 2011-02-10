@@ -1,0 +1,14 @@
+body, html {
+	line-height: 15px;
+	font-size: 12px;
+	font-family: verdana, sans-serif;
+	background-color: aliceblue; color: darkgray;
+	/* for center column */
+	height: 100%; 
+  text-align: center; /* for IE7 */
+}
+
+#wrapper {
+	width: 800px; /* 932 + 28 */
+	margin: 0 auto;
+}
