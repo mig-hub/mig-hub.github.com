@@ -18,7 +18,6 @@ end
 {% endhighlight %}
 
 {% for post in site.posts limit:5 %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.content }}
-<em>Posted on {{ post.date | date_to_long_string }}.</em>
+[{{ post.title }}]({{ post.url }})
+_Posted on {{ post.date | date_to_long_string }}._
 {% endfor %}
