@@ -1,4 +1,5 @@
 ---
+layout: page
 published: true
 ---
 
@@ -19,5 +20,3 @@ end
 Go -> [There](http://www.google.com)
 
 ![Pic](http://a1.twimg.com/profile_images/1025519450/2501a94f461da4590071f50c97988ebd_normal.png "Gravatar")
-
-<script src="https://gist.github.com/455874.js?file=gistfile1.txt"></script>
