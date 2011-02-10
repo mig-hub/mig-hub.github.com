@@ -11,4 +11,6 @@ body, html {
 #wrapper {
 	width: 800px; /* 932 + 28 */
 	margin: 0 auto;
+	text-align: left;
+	background-color: white;
 }
